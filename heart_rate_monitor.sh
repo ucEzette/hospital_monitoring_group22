@@ -7,3 +7,6 @@ read device_name
 # txt file where heart rate  data will be logged
 log_file="heart_rate_log.txt"
 
+while true; do
+    # Getting current timestamp
+    timestamp=$(date '+%Y-%m-%d %H:%M:%S')
