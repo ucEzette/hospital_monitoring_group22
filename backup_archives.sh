@@ -2,7 +2,7 @@
 
 # Define variables
 GROUP_NUMBER=22  # Replace with your actual group number
-ARCHIVE_DIR="archived_logs_group_$GROUP_NUMBER"  # Use an underscore to avoid confusion
+ARCHIVE_DIR="archived_logs_group$GROUP_NUMBER"  
 
 # Ensure the ARCHIVE_DIR variable is correctly set
 echo "Creating directory: $ARCHIVE_DIR"
