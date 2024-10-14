@@ -24,3 +24,9 @@ This script records heart rate data every second and logs it into heart_rate_log
 # If the log file is present, the script renames it by appending a timestamp in the format YYYYMMDD_HHMMSS, creating a unique archive file.
 # This renaming helps organize historical log data, making it easier to manage and retrieve later.
 # After archiving, the script notifies the user of the new file name for reference.
+
+3. Script Name: backup_archives.sh
+### Description:
+# The backup_archives.sh is designed to move archived log files into a designated directory called archived_logs_group22
+# It also back up the archived files to a remote server using SSH.
+# After being moved the files should be securely backed up on a remote server.
