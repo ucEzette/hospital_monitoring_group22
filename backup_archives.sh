@@ -8,7 +8,7 @@ REMOTE_HOST="031d43926379"       # Replace with your sandbox host
 REMOTE_DIR="/home/hp"           # Directory on the remote server
 
 # Create the archived_logs directory if it doesn't exist
-mkdir -p "$archived_logs_group$GROUP_NUMBER"
+mkdir "$archived_logs_group$GROUP_NUMBER"
 
 # Move all archived log files into the archived_logs directory
 mv *heart_rate_log.txt_* "$ARCHIVE_DIR"  
