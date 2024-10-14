@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define variables
-GROUP_NUMBER=22  # Replace with your actual group number
+GROUP_NUMBER=22  # Insert our group number
 ARCHIVE_DIR="archived_logs_group$GROUP_NUMBER"  
 
 # Ensure the ARCHIVE_DIR variable is correctly set
