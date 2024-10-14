@@ -8,13 +8,13 @@ read device_name
 log_file="heart_rate_log.txt"
 
 # Start logging heart rate data
-
+log_heart_rate() {
 while true; do
 	 # Get current timestamp
     timestamp=$(date '+%Y-%m-%d %H:%M:%S')
 
 # generate a random heart rate between 50 and 100
-    heart_rate=$((RANDOM % 51 + 40))
+    heart_rate=$((RANDOM % 51 + 50))
 
 
     # Add the data to the log file
@@ -23,3 +23,14 @@ while true; do
     # 1 second sleep
     sleep 1
 done
+}
+
+# Start logging heart rate data in the background
+log_heart_rate &
+
+# Capture the process ID of the background process
+pid=$!
+
+# Display the PID of the background process
+echo "Heart rate monitor is running in the background with Process ID (PID): $pid"
+
