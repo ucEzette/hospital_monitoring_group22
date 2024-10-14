@@ -3,13 +3,13 @@
 # Log file
 log_file="heart_rate_log.txt"
 
-# Check if the log file exists
+# Verify if the log file exists
 if [ ! -f "$log_file" ]; then
     echo "Log file '$log_file' does not exist. Please run the heart rate monitoring script first."
     exit 1
 fi
 
-# Get the current timestamp in the desired format
+# Get the current timestamp
 timestamp=$(date "+%Y%m%d_%H%M%S")
 
 # Create the new archive log name
