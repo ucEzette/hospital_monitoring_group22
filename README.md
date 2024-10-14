@@ -30,3 +30,4 @@ This script records heart rate data every second and logs it into heart_rate_log
 # The backup_archives.sh is designed to move archived log files into a designated directory called archived_logs_group22
 # It also back up the archived files to a remote server using SSH.
 # After being moved the files should be securely backed up on a remote server.
+Elvin : The backup username and host was done on my ssh where you'll find as you execute the backup.sh file and it was backing up on my /home directory with the name "heart_rate_log.txt_"
