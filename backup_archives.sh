@@ -11,7 +11,7 @@ REMOTE_DIR="/home/"           # Directory on the remote server
 mkdir -p "$archived_logs_group$GROUP_NUMBER"
 
 # Move all archived log files into the archived_logs directory
-mv *heart_rate_log.txt_* "$ARCHIVE_DIR/"  
+mv *heart_rate_log.txt_* "$ARCHIVE_DIR"  
 
 
 # Back up the archived logs to the remote server
