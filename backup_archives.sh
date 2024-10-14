@@ -16,7 +16,7 @@ mv *heart_rate_log.txt_* "$ARCHIVE_DIR"
 # Back up the archived logs to the remote server
 REMOTE_USER="031d43926379"  # Replace with your sandbox username
 REMOTE_HOST="031d43926379.3a2627c1.alu-cod.online"      # Replace with your sandbox host
-REMOTE_DIR="/home/hp"           # Directory on the remote server
+REMOTE_DIR="/home/"           # Directory on the remote server
 
 scp -r "$ARCHIVE_DIR/"* "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DIR"
 
