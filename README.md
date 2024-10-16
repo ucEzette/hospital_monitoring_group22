@@ -16,7 +16,7 @@ This script records heart rate data every second and logs it into heart_rate_log
 # Get current timestamp
 # Generates a random heart rate between 40 and 100
 # Heart Rate Monitoring, Archival, and Backup Scripts
-
+	Uche
 2. Script Name: archive_log.sh
 ### Description:
 # The archive_log.sh shell script is designed to archive the heart rate log file named heart_rate_log.txt.
@@ -24,10 +24,12 @@ This script records heart rate data every second and logs it into heart_rate_log
 # If the log file is present, the script renames it by appending a timestamp in the format YYYYMMDD_HHMMSS, creating a unique archive file.
 # This renaming helps organize historical log data, making it easier to manage and retrieve later.
 # After archiving, the script notifies the user of the new file name for reference.
-
+	Angel
 3. Script Name: backup_archives.sh
 ### Description:
 # The backup_archives.sh is designed to move archived log files into a designated directory called archived_logs_group22
 # It also back up the archived files to a remote server using SSH.
 # After being moved the files should be securely backed up on a remote server.
-
+	Agertu/Elvin
+=======
+Elvin : The backup username and host was done on my ssh where you'll find as you execute the backup.sh file and it was backing up on my /home directory with the name "heart_rate_log.txt_"
