@@ -16,7 +16,6 @@ while true; do
 # generate a random heart rate between 50 and 100
     heart_rate=$((RANDOM % 51 + 50))
 
-
     # Add the data to the log file
     echo "$timestamp $device_name $heart_rate" >> $log_file
 
