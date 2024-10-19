@@ -2,7 +2,7 @@
 
 # Ask user for the device name
 echo "Input name of device (e.g., Monitor_A):"
-read device_name
+read -r device_name
 
 # Text file where heart rate data will be logged
 log_file="heart_rate_log.txt"
@@ -31,5 +31,4 @@ log_heart_rate &
 pid=$!
 
 # Display the PID of the background process
-echo "Heart rate monitor is running in the background with Process ID (PID): $pid"
-
+echo "heart rate monitoring completed n background. PID: $!"
