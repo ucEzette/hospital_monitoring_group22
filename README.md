@@ -1,7 +1,7 @@
 
-## Data handling and monitoring with Linux in the Hospital
+# Data handling and monitoring with Linux in the Hospital
 
-**Overview**
+##Overview
 
 This project consists of three shell scripts designed to simulate heart rate monitoring, log archival, and secure backup of archived files to a remote server. The scripts are:
 
@@ -20,7 +20,7 @@ This script records heart rate data every second and logs it into heart_rate_log
 * `Generates a random heart rate between 40 and 100`
 * `Heart Rate Monitoring, Archival, and Backup Scripts`
 
-~Uche/Karabo~
+*Uche/Karabo*
 
 **2. Script Name: archive_log.sh**
 
@@ -32,7 +32,7 @@ This script records heart rate data every second and logs it into heart_rate_log
 * `This renaming helps organize historical log data, making it easier to manage and retrieve later.`
 * `After archiving, the script notifies the user of the new file name for reference.`
 
-~Angel~
+*Angel*
 
 **3. Script Name: backup_archives.sh**
 
@@ -42,7 +42,7 @@ This script records heart rate data every second and logs it into heart_rate_log
 * `It also back up the archived files to a remote server using SSH.`
 * `After being moved the files should be securely backed up on a remote server.`
 
-~Agertu/Elvin~
+*Agertu/Elvin*
 
 =======
 Elvin : The backup username and host was done on my ssh where you'll find as you execute the backup.sh file and it was backing up on my /home directory with the name "heart_rate_log.txt_"
